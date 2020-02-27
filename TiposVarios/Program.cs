@@ -19,6 +19,11 @@ namespace TiposVarios
             char f = '\u0062';
             Console.WriteLine(e);
             Console.WriteLine(f);
+
+            float g = 1000;
+            double h = 2000;
+            Console.WriteLine(g);
+            Console.WriteLine(h);
         }
     }
 }
