@@ -14,6 +14,11 @@ namespace TiposVarios
             Console.WriteLine(b);
             Console.WriteLine(c);
             Console.WriteLine(d);
+
+            char e = '\u0061';
+            char f = '\u0062';
+            Console.WriteLine(e);
+            Console.WriteLine(f);
         }
     }
 }
