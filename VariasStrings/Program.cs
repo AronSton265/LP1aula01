@@ -16,6 +16,20 @@ namespace VariasStrings
 			Console.WriteLine(c);
 			Console.WriteLine(d);
 			Console.WriteLine(e);
+
+			int x = 2;
+			int y = 4;
+			string f = "Hello" + "world";
+			string g = "A" + 9;
+			string h= $"Valor de x é {x}";
+			string i= $"{x}x{y}={x*y}";
+			string j = String.Format("Valor de X é {0}", x);
+			Console.WriteLine(f);
+			Console.WriteLine(g);
+			Console.WriteLine(h);
+			Console.WriteLine(i);
+			Console.WriteLine(j);
+			Console.WriteLine("console write");
 		}
     }
 }
