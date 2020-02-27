@@ -6,6 +6,8 @@ namespace VariasStrings
     {
         static void Main(string[] args)
         {
+			double xx = 0.12345;
+			int ii = 18;
 			string a = "A";
 			string b = "B";
 			string c = "Hello";
@@ -30,6 +32,11 @@ namespace VariasStrings
 			Console.WriteLine(i);
 			Console.WriteLine(j);
 			Console.WriteLine("console write");
+
+			string k = String.Format("{0:f2} e {0:p1}", xx);
+			string m = String.Format("{0:x} e {0:c}", ii);
+			Console.WriteLine(k);
+			Console.WriteLine(m);
 		}
     }
 }
