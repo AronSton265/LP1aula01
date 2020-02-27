@@ -24,6 +24,11 @@ namespace TiposVarios
             double h = 2000;
             Console.WriteLine(g);
             Console.WriteLine(h);
+
+            bool i = 10 < 2;
+            bool j = true;
+            Console.WriteLine(i);
+            Console.WriteLine(j);
         }
     }
 }
